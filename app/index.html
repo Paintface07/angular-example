@@ -4,11 +4,16 @@
     <meta charset=utf-8 />
   	<title></title>
   	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css" />
-  	<script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="vendor/angular.min.js"></script>
+  	<script type="text/javascript" src="javascript/app.js"></script>
   	<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
   </head>
-  <body>
+  <body data-ng-app="angularApp">
+    <div data-ng-controller="rootController">
+      <button ng-click="getStuff()" />
+      {{ myVal }}
+    </div>
   </body>
 </html>

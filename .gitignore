@@ -28,3 +28,6 @@ node_modules
 
 # Ignore files derived by Grunt plug-ins
 generated
+
+# Ignore vendor files.  These will likely change for anyone cloning this repo anyway
+vendor

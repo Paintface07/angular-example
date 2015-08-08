@@ -4,7 +4,7 @@
   "description": "An example angularjs project that consumes an API",
   "author": "Kevin Kondratuk <paintface07@gmail.com>",
   "contributors": [{
-    "name": "Kevin Kondratuk",
+    "name": "Kevin Kondratuk"
   }, {
     "name": "Adam Grubbs"
   }],
@@ -16,9 +16,8 @@
 
   },
   "devDependencies": {
-    "vows": "^0.7.0",
-    "assume": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
-    "pre-commit": "*"
+    "grunt": "*",
+    "grunt-connect": "*"
   },
   "private": true,
   "license": "GPL"
