@@ -1,0 +1,25 @@
+{
+  "name": "angular-example",
+  "version": "0.0.1",
+  "description": "An example angularjs project that consumes an API",
+  "author": "Kevin Kondratuk <paintface07@gmail.com>",
+  "contributors": [{
+    "name": "Kevin Kondratuk",
+  }, {
+    "name": "Adam Grubbs"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Paintface07/angular-example"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "vows": "^0.7.0",
+    "assume": "<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0",
+    "pre-commit": "*"
+  },
+  "private": true,
+  "license": "GPL"
+}
